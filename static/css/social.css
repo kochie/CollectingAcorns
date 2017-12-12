@@ -1,0 +1,18 @@
+.social-center {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.big-button {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: lightsteelblue;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.big-button:hover {
+	background-color: lightslategrey;
+}
