@@ -4,7 +4,7 @@ title = "I \u2764\ufe0f \U0001F330"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-59674915-5"
 theme = "hugo-sustain"
 publishDir = "docs"
 
@@ -14,7 +14,7 @@ publishDir = "docs"
 [params]
   avatar = "chipmunk.gif"
   author = "Robert"
-  description = "Describe your website"
+  description = "A link to my refferal code for acorns. So we can all profit. $$$"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = ["css/social.css"]
