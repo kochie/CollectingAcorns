@@ -33,6 +33,30 @@ ga('send', 'pageview');
 </script>
 
 	<link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-971513672"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-971513672');
+	</script>
+	
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-971513672/IbiTCOzHzHoQyL6gzwM',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
   </head>
 
   <body>
@@ -67,7 +91,7 @@ ga('send', 'pageview');
         <h3>I'm <strong>Robert</strong>, a Software Engineer and avid acorn collector.</h3>
 		<h3>If you're like me and love collecting those acorns you should get an account with <a href="https://www.acorns.com">Acorns.</a></h3>
         <h3>But wait! If you sign up using my refferal code we both get &#x1F4B0;&#x1F4B0;$2.50&#x1F4B0;&#x1F4B0;extra credit! It's not much but it's a good start, and pretty neat if I say so myself. &#x1F609;</h3>
-		<h3 class="grow"><a class="big-button" href="https://app.acornsau.com.au/invite/PK794R">Claim $2.50 with code PK794R on Acorn</a></h3>
+		<h3 class="grow"><a class="big-button" onclick="gtag_report_conversion" href="https://app.acornsau.com.au/invite/PK794R">Claim $2.50 with code PK794R on Acorn</a></h3>
         <div class="social">
   <div class="social-center">
 	  
